@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background: #f0f2f1;
+    font-family: "Open Sans", sans-serif, Helvetica;
+  }
+
+  .contenedor {
+      border: black solid 1px;
+      display: flex;
+      background: rgb(217, 217, 219);
+      height: 500px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .contenedor .contenedor_tarjeta {
+    height: 80%;
+    width: 80%;
+    border: blue solid 1px;
+    background: chocolate;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+    .contenedor .contenedor_tarjeta div {
+        border: black solid 1px;
+      background: rgb(217, 217, 219);
+      margin: auto;
+    }
+
+  
